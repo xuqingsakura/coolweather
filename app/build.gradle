@@ -37,4 +37,12 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+    // litepal依赖包
+    implementation files('libs/litepal-2.0.0-src.jar')
+    // okhttp3
+    implementation libs.com.squareup.okhttp3.okhttp3
+    // gson
+    implementation libs.google.gson
+    // glide
+    implementation libs.glide
 }

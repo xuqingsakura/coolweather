@@ -1,5 +1,10 @@
 [versions]
 agp = "8.7.3"
+comSquareupOkhttp3Okhttp2 = "4.12.0"
+core = "3.2.3"
+glide = "4.16.0"
+gradle = "8.9"
+gsonVersion = "2.11.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -9,6 +14,11 @@ activity = "1.8.0"
 constraintlayout = "2.1.4"
 
 [libraries]
+com-squareup-okhttp3-okhttp3 = { module = "com.squareup.okhttp3:okhttp", version.ref = "comSquareupOkhttp3Okhttp2" }
+core = { module = "org.litepal.guolindev:core", version.ref = "core" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-gson = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
